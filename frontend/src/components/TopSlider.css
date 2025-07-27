@@ -1,0 +1,28 @@
+/* src/components/TopSlider.css */
+
+.top-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Light background for padding gaps */
+}
+
+.slide-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .slide-container {
+    height: 250px;
+  }
+}
